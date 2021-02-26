@@ -22,12 +22,12 @@ module.exports = {
     return { cats, dogs };
   },
 
-  getDog() {
-    return pets.dogs.show();
-  },
-
   getCat() {
     return pets.cats.show();
+  },
+
+  getDog() {
+    return pets.dogs.show();
   },
 
   dequeue(type) {
